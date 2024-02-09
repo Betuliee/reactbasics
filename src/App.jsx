@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Header aktifKullaniciSayisi={aktifKullanici} setAktifKullanici={setAktifKullanici} />
-      <div className='card-containe'>
+      <div className='card-container'>
         {personList.map((person) => (
           <Card personInfo={person} />))}
       </div>
